@@ -16,7 +16,7 @@ steps:
  
 - task: UseDotNet@2
   inputs:
-    version: 4.8.0
+    version: 4.8
     packageType: sdk
 
 - task: DotNetCoreCLI@2
